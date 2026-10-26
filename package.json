@@ -1,0 +1,29 @@
+{
+  "name": "farmer-crop-price-tracker",
+  "version": "1.0.0",
+  "description": "A beginner-friendly full-stack web application for Indian farmers to browse mandi crop prices and calculate harvest revenue.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "npm run build && node server/server.js",
+    "build": "npm --prefix client run build",
+    "dev": "node server/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "node server/server.js",
+    "server": "node server/server.js"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "express",
+    "mandi-prices",
+    "agriculture",
+    "farmer-crop-tracker",
+    "college-project"
+  ],
+  "author": "Student Developer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
